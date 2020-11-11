@@ -1,0 +1,223 @@
+
+
+/*Nav bar*/
+nav{
+    width: 85%;
+    background-color:#6C5526;
+    overflow: hidden;
+    float: left;
+    margin-top: 25px;
+    margin-left: 50px;
+    border-radius: 6px;
+
+}
+
+ul{
+    padding: 2px;
+    margin: 0px 0px 0px 0px;
+    list-style: none;
+}
+
+li{
+
+}
+
+nav ul li a{
+    width: 100%;
+    display: inline-table;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+nav a:hover{
+   
+}
+
+.nav_link:hover{
+    
+}
+
+
+
+.head1{
+    margin: 0px;
+   
+    min-height: 100vh;
+    background: url(../imagenes/fondooficial.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* Cuerpo */ 
+
+/* Logo*/
+.contenedor_logo{
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 43%;
+    /* background-color: salmon; */
+}
+
+.logo{
+    margin-top: 5px;
+    border-radius: 50%;
+    height: 200px;
+}
+
+/* Titulo */
+
+.contenedor_titulo{
+    position: absolute;
+    margin-left: 39%;
+    margin-top: 30%;
+    animation: slideInRight;
+    animation-duration: 2s;
+}
+
+
+
+.titulo{
+    font-size: 90px;
+    font-weight: bold;
+    color: #856A19;
+    font-style: italic;
+}
+
+
+
+/* Texto introducción*/
+.contenedor_info{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 30%;
+    /* background-color: royalblue; */
+    animation: slideInRight;
+    animation-duration: 2s;
+}
+.texto{
+    font-size: 20px;
+    color: #856A19;
+    
+}
+
+.contenedor_boton{
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 45%;
+    /* background-color: royalblue; */
+    animation: fadeInUpBig;
+    animation-duration: 2s;
+}
+
+.boton{
+    background-color: cornsilk;
+    border-radius: 20px;
+    padding: 8px;  
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.boton:hover{
+    text-decoration: none;
+}
+
+
+/* Efectos hover*/
+
+/* Overline From Left */
+.hvr-overline-from-left {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-overline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    top: 0;
+    background: #f0932b;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-overline-from-left:hover:before, .hvr-overline-from-left:focus:before, .hvr-overline-from-left:active:before {
+    right: 0;
+  }
+
+/* Sweep To Right */
+
+  .hvr-sweep-to-right {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  .hvr-sweep-to-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #f0932b;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    border-radius: 20px;
+  }
+  .hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+    color: white;
+  }
+  .hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+ /* Grow*/
+  .hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+ 
