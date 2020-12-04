@@ -9,12 +9,10 @@
 nav{
   width: 41%;
   background-color: rgb(119, 191, 163, 0.8);
-  overflow: hidden;
-  float: left;
   margin-top: 25px;
   margin-left: 50px;
   border-radius: 6px;
-  height: 55px;
+  
 
 }
 
@@ -217,15 +215,25 @@ nav ul li a{
     }
     .boton{
       background-color: rgb(119, 191, 163, 0.8);
-      margin-left: 34%;
+      margin-left: 32%;
       border: 1px solid #000000;
     }
 
     .boton2{
       background-color: rgb(119, 191, 163, 0.8);
-      margin-left: 34%;
+      margin-left: 32%;
       border: 1px solid #000000;
     }
+    
+  .titulo{
+    font-family: 'kurri_island_caps_italicsbold';
+    font-size: 45px;
+    margin-top: 80px;
+    color: #77bfa3; 
+    background-color: whitesmoke;
+    padding: 4px;
+    border-radius: 10px;
+  }
 
 
     }

@@ -12,12 +12,9 @@ nav{
     width: 41%;
     /* background-color:#6C5526; */
     background-color: rgb(119, 191, 163, 0.8);
-    overflow: hidden;
-    float: left;
     margin-top: 25px;
     margin-left: 50px;
     border-radius: 6px;
-    height: 55px;
   
   }
   

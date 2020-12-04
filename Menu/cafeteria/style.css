@@ -12,13 +12,9 @@
 nav{
   width: 41%;
   background-color: rgb(119, 191, 163, 0.8);
-  overflow: hidden;
-  float: left;
   margin-top: 25px;
   margin-left: 50px;
   border-radius: 6px;
-  height: 55px;
-
 }
 
 ul{
@@ -175,6 +171,11 @@ nav ul li a{
         width: 100%;
         margin-left: 0px;
       }
+      .nav-link{
+        margin-inline-end: 0px ; 
+        font-family:'kurri_island_capsbold' ;
+        font-size: 18px;
+        }
 
       .texto_servicio{
         font-size: 3vh;
@@ -183,6 +184,12 @@ nav ul li a{
     
       .titulo_servicio{
           font-size: 5vh;
+      }
+
+      .boton{
+        background-color: rgb(119, 191, 163, 0.8);
+        margin-left: 32%;
+        border: 1px solid #000000;
       }
     }
     
@@ -255,7 +262,7 @@ nav ul li a{
 
 
 
-@font-face {
+/* @font-face {
     font-family: 'kurri_island_caps_italicsbold';
     src: url('kurriislandcapsitapersonal-bd-webfont.woff2') format('woff2'),
          url('kurriislandcapsitapersonal-bd-webfont.woff') format('woff');
@@ -334,4 +341,4 @@ nav ul li a{
     font-weight: normal;
     font-style: normal;
   
-  }
+  } */

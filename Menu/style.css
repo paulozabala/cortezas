@@ -9,13 +9,10 @@
 
 nav{
   width: 41%;
-  background-color: rgb(119, 191, 163, 0.8);;
-  overflow: hidden;
-  float: left;
+  background-color: rgb(119, 191, 163, 0.8);
   margin-top: 25px;
   margin-left: 50px;
   border-radius: 6px;
-  height: 55px;
 
 }
 
