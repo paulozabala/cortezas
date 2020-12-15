@@ -67,7 +67,18 @@ font-size: 18px;
   animation-duration: 2s;
 }
 
+.foto{
+  width: 100%;
+  margin-left: ;
+}
 
+.boton2{
+  margin-left: 35px;
+  margin-bottom: 60px;
+  background-color: #bfd8bd;
+  color: black;
+  border: 1px solid black;
+}
 
 .titulo_formulario{
   color: #000000;
