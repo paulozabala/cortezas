@@ -43,7 +43,7 @@ nav ul li a{
 
 .head1{
   background-color: #bfd8bd;
-}
+} /* fondo de menu principal*/
 
 .titulo{
   font-family: 'kurri_island_caps_italicsbold';
@@ -64,6 +64,14 @@ nav ul li a{
   position: relative;
   display: flex;
   align-items: center;
+
+} 
+
+.servicio_borde{
+  border-radius: 5%; 
+  border-color:transparent; 
+  border-style:solid ; 
+  box-shadow: 6px 7px 5px 0px #858689;
 }
 
 .texto_transicion{
@@ -111,6 +119,7 @@ nav ul li a{
       
     }
 
+ 
 
   .c-img:hover .texto_servicio {
       margin-top: 30px;
@@ -150,6 +159,8 @@ color: white;
   .servicio_imagen{
    height: 250px;
   }
+
+ 
 
   .texto_servicio{
     color: #000000;
