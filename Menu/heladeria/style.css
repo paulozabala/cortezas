@@ -1,5 +1,5 @@
 .head0{
-    background: url(/imagenes/fondo_pestañas.jpg);
+    background: url(../../imagenes/fondo_pestañas.jpg); /*fondo detras del nav*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
