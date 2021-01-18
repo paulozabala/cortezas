@@ -64,6 +64,7 @@ nav ul li a{
   position: relative;
   display: flex;
   align-items: center;
+  
 
 } 
 
@@ -72,6 +73,7 @@ nav ul li a{
   border-color:transparent; 
   border-style:solid ; 
   box-shadow: 6px 7px 5px 0px #858689;
+  opacity: 90%;
 }
 
 .texto_transicion{
@@ -81,7 +83,7 @@ nav ul li a{
     height: 100%;
     background-color:#dde7c7;
     opacity:0;
-      transition:0.3s;
+    transition:0.3s;
   
   }
 
@@ -92,6 +94,7 @@ nav ul li a{
     font-family: 'kurri_island_caps_personalTh';
     font-size: 3vh;
     margin-top: 25px;
+    opacity: 85%;
 }
   .titulo_servicio{
       position: relative;
