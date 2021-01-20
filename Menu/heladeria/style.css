@@ -122,7 +122,7 @@ nav ul li a{
       font-family: 'kurri_island_caps_personalTh';
       font-size: 3vh;
       text-align: justify;
-      margin-top: 10px;
+      margin-top: 20px;
   }
   
     .titulo_servicio{
@@ -133,6 +133,7 @@ nav ul li a{
       font-family: kurri_island_caps_personalTh;
       color: #000;
       margin-top: 0px;
+      margin-bottom: 20px;
     }
    
    
