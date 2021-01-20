@@ -120,17 +120,19 @@ nav ul li a{
       color: #000000;
       align-content: center;
       font-family: 'kurri_island_caps_personalTh';
-      font-size: 4vh;
-      margin-top: 30px;
+      font-size: 3vh;
+      text-align: justify;
+      margin-top: 10px;
   }
   
     .titulo_servicio{
-        position: relative;
-        text-align: center; /* centro el texto*/
-        font-style: italic; 
-        font-size: 6vh;
-        font-family: kurri_island_caps_personalTh;
-        color: #000;
+      position: relative;
+      text-align: center; /* centro el texto*/
+      font-style: italic; 
+      font-size: 5vh;
+      font-family: kurri_island_caps_personalTh;
+      color: #000;
+      margin-top: 0px;
     }
    
    
