@@ -40,7 +40,7 @@ nav ul li a{
 
 .logo{
   margin-left: 28%;
-  width: 80vh;
+  width: 45%;/*80vh;*/
 }
 
 .caja_logo{
@@ -88,6 +88,11 @@ nav ul li a{
   border-radius: 10px;
   text-decoration: none;
   color: black;
+}
+
+.mision{
+  border-radius: 40%;
+  max-width:95%;
 }
 
 .svg{
