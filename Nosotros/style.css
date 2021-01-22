@@ -56,7 +56,7 @@ nav ul li a{
  /* background: url(../imagenes/frutas.jpg); */
  background-color: #bfd8bd;
  background-repeat: no-repeat;
- background-size: cover;
+ background-size:auto;
 }
 
 .titulo{
@@ -72,6 +72,7 @@ nav ul li a{
   font-size: large;
   font-style: italic;
   font-family: 'kurri_island_caps_personalLt';
+
 }
 
 
@@ -173,6 +174,8 @@ footer{
 
 
 /* Responsive */
+
+
 
 @media screen and (max-width: 800px){
 
