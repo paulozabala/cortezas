@@ -53,21 +53,22 @@ nav ul li a{
 
 .head1{
     margin: 0px;
-    min-height: 10vh;
+    /*min-height: 10vh;*/
     /*background: url(../imagenes/portada_cortezas.jpg);*/
     background-repeat: no-repeat;
-    background-size: cover;
+    /*background-size: cover;*/
     background-position:center;
     /*background-attachment: fixed;*/
     
 }
 
 
-/* Cuerpo */ 
+/* Cuerpo*/
 .portada{
-  max-width: 1024px;
-  height: 768px;
-}
+  height: 100%;
+  width: 100%;
+
+} 
 
 /* Logo*/
 .contenedor_logo{
