@@ -15,11 +15,14 @@ div.container-fluid{
 }
 /*Nav bar*/
 nav{
-    width: 100%;
+
+  width: 100%;
+    /* background-color:#6C5526; */
     background-color:#6C5526;
     margin-top: 25px;
     margin-left: 50px;
     border-radius: 6px;
+    max-width: 800px; 
 }
 
 ul{
@@ -38,25 +41,38 @@ nav ul li a{
     font-family: Arial, Helvetica, sans-serif;
    
 }
+.maincontainer{
+
+}
+.head0{
+  opacity: 80%;
+  min-height: 100vh;
+  background-color: transparent;
+  max-width: 90%;
+  
 
 
+}
 .head1{
     margin: 0px;
-   
-    min-height: 100vh;
-    background: url(../imagenes/portada_cortezas.jpg);
+    min-height: 10vh;
+    /*background: url(../imagenes/portada_cortezas.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position:center;
     background-attachment: fixed;
+    
 }
 
 
 /* Cuerpo */ 
+.portada{
+  max-width: 1200px;
+}
 
 /* Logo*/
 .contenedor_logo{
-    position: absolute;
+    position:relative;
     border-radius: 50%;
     margin-left: 48%;
     /* background-color: salmon; */
@@ -73,7 +89,7 @@ nav ul li a{
 /* Titulo */
 
 .contenedor_titulo{
-    position: absolute;
+    position: relative;
     margin-left: 39%;
     margin-top: 30%;
     animation: slideInRight;
@@ -93,7 +109,7 @@ nav ul li a{
 
 /* Texto introducción*/
 .contenedor_info{
-    position: absolute;
+    position: relative;
     margin-left: 60%;
     margin-top: 30%;
     /* background-color: royalblue; */
@@ -223,6 +239,7 @@ nav ul li a{
 
 
 @media screen and (max-width: 800px){
+  /*
   nav{
     width: 100%;
     background-color:#6C5526;
@@ -230,7 +247,7 @@ nav ul li a{
     margin-left: 0px;
     border-radius: 6px;
 
-}
+}*/
 .contenedor_logo{
   position: absolute;
   margin-left: 4vh;
