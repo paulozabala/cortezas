@@ -4,8 +4,6 @@
   height:100vh;
 }
 
-
-
 div.row{
   margin-right: 0px;
 }
@@ -49,10 +47,10 @@ nav ul li a{
   min-height: 100vh;
   background-color: transparent;
   max-width: 90%;
-  
-
+  position: relative;
 
 }
+
 .head1{
     margin: 0px;
     min-height: 10vh;
@@ -60,36 +58,48 @@ nav ul li a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     
 }
 
 
 /* Cuerpo */ 
 .portada{
-  max-width: 1200px;
+  max-width: 1024px;
+  height: 768px;
 }
 
 /* Logo*/
 .contenedor_logo{
-    position:relative;
+    
     border-radius: 50%;
-    margin-left: 48%;
+    /*margin-left: 48%;
     /* background-color: salmon; */
 }
 
 .logo{
+  /*position: relative;*/
     margin-top: 5px;
     border-radius: 50%;
     height: 200px;
-    width: 300px;
-    height: 250px;
+    width: 200px;
+
 }
 
+.logobox{
+    
+    left:80px;
+    margin-top: 5px;
+    border-radius: 50%;
+   
+    
+
+
+}
 /* Titulo */
 
 .contenedor_titulo{
-    position: relative;
+    /*position: relative;*/
     margin-left: 39%;
     margin-top: 30%;
     animation: slideInRight;
@@ -109,7 +119,7 @@ nav ul li a{
 
 /* Texto introducción*/
 .contenedor_info{
-    position: relative;
+    /*position: relative;*/
     margin-left: 60%;
     margin-top: 30%;
     /* background-color: royalblue; */
@@ -123,9 +133,9 @@ nav ul li a{
 }
 
 .contenedor_boton{
-    position: absolute;
-    margin-left: 55%;
-    margin-top: 45%;
+    /*position: absolute;*/
+    /*margin-left: 55%;
+    margin-top: 45%;*/
     /* background-color: royalblue; */
     animation: fadeInUpBig;
     animation-duration: 2s;
@@ -237,9 +247,9 @@ nav ul li a{
   transform: scale(1.1);
 }
 
-
+/*
 @media screen and (max-width: 800px){
-  /*
+  
   nav{
     width: 100%;
     background-color:#6C5526;
@@ -247,7 +257,7 @@ nav ul li a{
     margin-left: 0px;
     border-radius: 6px;
 
-}*/
+}
 .contenedor_logo{
   position: absolute;
   margin-left: 4vh;
@@ -259,7 +269,7 @@ nav ul li a{
   height: 300px;
 }
 
-/* Titulo */
+/* Titulo 
 
 .contenedor_titulo{
   position: absolute;
@@ -277,15 +287,15 @@ nav ul li a{
   color: #856A19;
   font-style: italic;
 }
+*/
 
 
-
-/* Texto introducción*/
+/* Texto introducción
 .contenedor_info{
   position: absolute;
   margin-left: 150px;
   margin-top: 300px;
-  /* background-color: royalblue; */
+  background-color: royalblue; 
   animation: slideInRight;
   animation-duration: 2s;
 }
@@ -299,7 +309,7 @@ nav ul li a{
   position: absolute;
   margin-left: 30%;
   margin-top: 390px;
-  /* background-color: royalblue; */
+  /* background-color: royalblue; 
   animation: fadeInUpBig;
   animation-duration: 2s;
 }
@@ -314,3 +324,4 @@ nav ul li a{
   
 }
 
+*/
